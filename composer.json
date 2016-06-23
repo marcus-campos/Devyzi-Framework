@@ -1,0 +1,18 @@
+{
+  "name":"Devyzi/Framework",
+  "require":{
+    "php":">=5.6"
+  },
+  "authors":[
+    {
+      "name":"Marcus Vinícius Campos",
+      "email":"marcus_vinicius_campos@hotmail.com"
+    }
+  ],
+  "autoload":{
+    "psr-4":{
+      "DEVYZI\\":"vendor/DEVYZI",
+      "App\\":"App/"
+    }
+  }
+}
