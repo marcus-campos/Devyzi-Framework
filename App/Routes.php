@@ -15,7 +15,7 @@ class Routes
     public function initRoutes()
     {
         $routes['home'] = array('route'=>'/','controller'=>"HomeController",'action'=>'show');
-        $routes['contact'] = array('route'=>'/contact','controller'=>"HomeController",'action'=>'contact');
+        $routes['contact'] = array('route'=>'/contact','controller'=>"ContactController",'action'=>'show');
         $this->setRoutes($routes);
     }
 
@@ -33,7 +33,7 @@ class Routes
 
     public function setRoutes(array $routes)
     {
-        $this->route = $routes;
+        $this->routes = $routes;
     }
 
     public function getUrl()
