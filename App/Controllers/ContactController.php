@@ -7,6 +7,6 @@ class ContactController
 {
     public function show()
     {
-        echo "Rota: /contact     Controller: Contact";
+        include_once '../App/Views/Contact.phtml';
     }
 }
