@@ -3,18 +3,13 @@
 namespace App\Controllers;
 
 
-class ContactController
+use DEVYZI\Controller\Action;
+
+class ContactController extends Action
 {
-    private $view;
-
-    public function __construct()
-    {
-        $this->view = new \stdClass();
-    }
-
     public function show()
     {
         $this->view->data = array("Moto G1", "Moto G2");
-        include_once '../App/Views/Contact.phtml';
+        $this->render("Contact.Contact"); //Renderiza a view home
     }
 }
