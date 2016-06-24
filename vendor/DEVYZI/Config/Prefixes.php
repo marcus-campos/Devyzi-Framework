@@ -16,9 +16,19 @@ class Prefixes
         return [
 
             /*
+            * Default address to controllers
+            */
+            "defaultAddressModels" => "App\\Models\\",
+
+            /*
              * Default address to controllers
              */
-            "defaultAddressController" => "App\\Controllers\\",
+            "defaultAddressViews" => "/App/Views/",
+
+            /*
+             * Default address to controllers
+             */
+            "defaultAddressControllers" => "App\\Controllers\\",
 
             /*
              * Value to replace double bars inf address files

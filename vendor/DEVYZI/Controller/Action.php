@@ -7,6 +7,7 @@
 
 namespace DEVYZI\Controller;
 
+use DEVYZI\Config\ExtensionsSupport;
 use DEVYZI\Config\Prefixes;
 
 abstract class Action
@@ -23,6 +24,7 @@ abstract class Action
     {
         $this->action = $action;
         $prefix = new Prefixes();
+        $extension = new ExtensionsSupport();
 
         $findme =  $prefix->Prefix()['doubleBarsInAddress'];
 
@@ -33,7 +35,7 @@ abstract class Action
             $this->action = str_replace(".","//", $this->action);
         }
 
-        include_once "../App/Views/".$this->action.".phtml";
+        include_once "..".$prefix->Prefix()['defaultAddressViews'].$this->action.$extension->Extensions()['defaultViewExtension'];
 
     }
 }
