@@ -16,7 +16,12 @@ class Prefixes
         return [
 
             /*
-             * Replace double bar in address files
+             * Default address to controllers
+             */
+            "defaultAddressController" => "App\\Controllers\\",
+
+            /*
+             * Value to replace double bars inf address files
              */
             "doubleBarsInAddress" => ".",
         ];

@@ -8,6 +8,8 @@
 namespace DEVYZI\Init;
 
 
+use DEVYZI\Config\Prefixes;
+
 abstract class Bootstrap
 {
     private $routes;
@@ -22,9 +24,11 @@ abstract class Bootstrap
 
     protected function run($url)
     {
+
         array_walk($this->routes, function($route) use ($url){
+            $prefix = new Prefixes();
             if($url == $route['route']){
-                $class = "App\\Controllers\\".ucfirst($route['controller']); //Caminho para a classe "controller"
+                $class = $prefix->Prefix()['defaultAddressController'].ucfirst($route['controller']); //Caminho para a classe "controller"
                 $controller = new $class; //Instancia a classe
                 $action = $route['action'];//Nome da ação a ser executada
                 $controller->$action();//Executa ação
