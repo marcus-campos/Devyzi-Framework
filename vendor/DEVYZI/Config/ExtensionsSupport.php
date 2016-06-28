@@ -17,7 +17,7 @@ class ExtensionsSupport
             /*
              * Default extension to view
              */
-            "defaultViewExtension" => ".phtml",
+            "defaultViewExtension" => ".blade.php",
         ];
     }
 }

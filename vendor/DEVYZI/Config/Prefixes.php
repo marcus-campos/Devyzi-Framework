@@ -16,14 +16,18 @@ class Prefixes
         return [
 
             /*
-            * Default address to controllers
+            * Default address to models
             */
             "defaultAddressModels" => "App\\Models\\",
 
             /*
-             * Default address to controllers
+             * Default address to views
              */
             "defaultAddressViews" => "/App/Views/",
+            /*
+             * Default address to cache views blade
+             */
+            "defaultAddressCacheViews" => "/App/Storage/Cache/",
 
             /*
              * Default address to controllers
