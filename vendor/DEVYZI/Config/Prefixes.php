@@ -27,7 +27,7 @@ class Prefixes
             /*
              * Default address to cache views blade
              */
-            "defaultAddressCacheViews" => "/App/Storage/Cache/",
+            "defaultAddressCacheViews" => "/App/Storage/Views/Cache/",
 
             /*
              * Default address to controllers

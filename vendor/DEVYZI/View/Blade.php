@@ -38,7 +38,7 @@ class Blade
 
         // use blade instead of phpengine
         // pass in filesystem object and cache path
-        $compiler = new BladeCompiler(new Filesystem(), '..'.$prefix->Prefix()['defaultAddressViews']);
+        $compiler = new BladeCompiler(new Filesystem(), '..'.$prefix->Prefix()['defaultAddressCacheViews']);
         $BladeEngine = new CompilerEngine($compiler);
 
         // create a dispatcher
