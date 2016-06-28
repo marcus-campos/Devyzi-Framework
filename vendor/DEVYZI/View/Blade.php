@@ -8,6 +8,7 @@
 namespace DEVYZI\View;
 
 // the required libs
+use DEVYZI\Config\Addresses;
 use Illuminate\View\FileViewFinder;
 use Illuminate\Filesystem\Filesystem as Filesystem;
 use Illuminate\View\Compilers\BladeCompiler;
@@ -23,7 +24,7 @@ class Blade
 {
     function loadBlade($view, $viewPath = false, $data = array() ) {
 
-        $prefix = new Prefixes();
+        $address = new Addresses();
 
         // echo $this->viewPath;
         if(isset($viewPath)) {
@@ -38,7 +39,7 @@ class Blade
 
         // use blade instead of phpengine
         // pass in filesystem object and cache path
-        $compiler = new BladeCompiler(new Filesystem(), '..'.$prefix->Prefix()['defaultAddressCacheViews']);
+        $compiler = new BladeCompiler(new Filesystem(), '..'.$address->Address()['defaultAddressCacheViews']);
         $BladeEngine = new CompilerEngine($compiler);
 
         // create a dispatcher

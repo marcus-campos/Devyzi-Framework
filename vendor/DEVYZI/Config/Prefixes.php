@@ -14,26 +14,6 @@ class Prefixes
     public function Prefix()
     {
         return [
-
-            /*
-            * Default address to models
-            */
-            "defaultAddressModels" => "App\\Models\\",
-
-            /*
-             * Default address to views
-             */
-            "defaultAddressViews" => "/App/Views/",
-            /*
-             * Default address to cache views blade
-             */
-            "defaultAddressCacheViews" => "/App/Storage/Views/Cache/",
-
-            /*
-             * Default address to controllers
-             */
-            "defaultAddressControllers" => "App\\Controllers\\",
-
             /*
              * Value to replace double bars inf address files
              */

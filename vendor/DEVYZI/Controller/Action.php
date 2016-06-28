@@ -7,10 +7,10 @@
 
 namespace DEVYZI\Controller;
 
+use DEVYZI\Config\Addresses;
 use DEVYZI\Config\ExtensionsSupport;
 use DEVYZI\Config\Prefixes;
 use DEVYZI\View\Blade;
-use Illuminate\Support\Facades\View;
 
 abstract class Action extends Blade
 {
@@ -22,10 +22,17 @@ abstract class Action extends Blade
         $this->view = new \stdClass();
     }
 
-    protected function render($action)
+    /**
+     * render pages
+     * @param $action
+     * @throws \Exception
+     * @throws \Throwable
+     */
+    protected function render($action, $values = array())
     {
         $this->action = $action;
         $prefix = new Prefixes();
+        $address = new Addresses();
         $extension = new ExtensionsSupport();
 
         $findme =  $prefix->Prefix()['doubleBarsInAddress'];
@@ -39,7 +46,7 @@ abstract class Action extends Blade
 
         //include_once "..".$prefix->Prefix()['defaultAddressViews'].$this->action.$extension->Extensions()['defaultViewExtension'];
 
-        $r = $this->loadBlade("..".$prefix->Prefix()['defaultAddressCacheViews'].$this->action.$extension->Extensions()['defaultViewExtension'], "..".$prefix->Prefix()['defaultAddressViews'].$this->action.$extension->Extensions()['defaultViewExtension'], array('testvar' => ' hora atual: '.time()));
+        $r = $this->loadBlade("..".$address->Address()['defaultAddressCacheViews'].$this->action.$extension->Extensions()['defaultViewExtension'], "..".$address->Address()['defaultAddressViews'].$this->action.$extension->Extensions()['defaultViewExtension'], $values);
         echo $r->render();
     }
 }
