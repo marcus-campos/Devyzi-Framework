@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3262ea1-5ced-433a-89e5-bb3db886cf8d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/App/Models/Client.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/DEVYZI/Config/Addresses.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/DEVYZI/DB/Conn.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/DEVYZI/Model/Table.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Controllers/ContactController.php" afterPath="$PROJECT_DIR$/App/Controllers/ContactController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App/Controllers/HomeController.php" afterPath="$PROJECT_DIR$/App/Controllers/HomeController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/DEVYZI/Config/Prefixes.php" afterPath="$PROJECT_DIR$/vendor/DEVYZI/Config/Prefixes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/DEVYZI/Controller/Action.php" afterPath="$PROJECT_DIR$/vendor/DEVYZI/Controller/Action.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/DEVYZI/Init/Bootstrap.php" afterPath="$PROJECT_DIR$/vendor/DEVYZI/Init/Bootstrap.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/DEVYZI/View/Blade.php" afterPath="$PROJECT_DIR$/vendor/DEVYZI/View/Blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" />
     </list>
     <ignored path="DevyziFramework.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -491,7 +479,7 @@
       <workItem from="1466706577442" duration="4311000" />
       <workItem from="1466717920439" duration="337000" />
       <workItem from="1466724445202" duration="10699000" />
-      <workItem from="1467133362316" duration="18371000" />
+      <workItem from="1467133362316" duration="18420000" />
     </task>
     <task id="LOCAL-00001" summary="Blade is possible!">
       <created>1467140977672</created>
@@ -507,11 +495,18 @@
       <option name="project" value="LOCAL" />
       <updated>1467141943725</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Say hello for DB::awesome :P">
+      <created>1467152140709</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1467152140709</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33814000" />
+    <option name="totallyTimeSpent" value="33863000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -559,7 +554,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Blade is possible!" />
     <MESSAGE value="View cache is in store." />
-    <option name="LAST_COMMIT_MESSAGE" value="View cache is in store." />
+    <MESSAGE value="Say hello for DB::awesome :P" />
+    <option name="LAST_COMMIT_MESSAGE" value="Say hello for DB::awesome :P" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
