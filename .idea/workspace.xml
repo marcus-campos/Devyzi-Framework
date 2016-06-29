@@ -345,7 +345,7 @@
       <workItem from="1466706577442" duration="4311000" />
       <workItem from="1466717920439" duration="337000" />
       <workItem from="1466724445202" duration="10699000" />
-      <workItem from="1467133362316" duration="34406000" />
+      <workItem from="1467133362316" duration="34438000" />
     </task>
     <task id="LOCAL-00001" summary="Blade is possible!">
       <created>1467140977672</created>
@@ -459,11 +459,18 @@
       <option name="project" value="LOCAL" />
       <updated>1467226491818</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Logo - Center">
+      <created>1467226578058</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1467226578058</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49849000" />
+    <option name="totallyTimeSpent" value="49881000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -538,7 +545,8 @@
     <MESSAGE value="Logo" />
     <MESSAGE value="Logo - Real" />
     <MESSAGE value="Logo - Bugfix" />
-    <option name="LAST_COMMIT_MESSAGE" value="Logo - Bugfix" />
+    <MESSAGE value="Logo - Center" />
+    <option name="LAST_COMMIT_MESSAGE" value="Logo - Center" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
