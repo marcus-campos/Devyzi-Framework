@@ -1,4 +1,3 @@
-->![Devyzi Framework](http://i.imgur.com/Mffjnem.png)<-
 # Devyzi-Framework
 Framework PHP sem fins lucrativos.
 
@@ -49,4 +48,6 @@ Desta forma, a view terá suporte ao template blade, veja um exemplo de como usa
 
 #Patrocine este projeto
 Caso você goste e queira patrocinar este projeto, [clique aqui](https://www.patreon.com/user?u=3580444) e doe para que o desenvolvimento do framework possa ser acelerado.
+
+![Devyzi Framework](http://i.imgur.com/Mffjnem.png)
 
