@@ -1,5 +1,4 @@
-[![Devyzi Framework](http://i.imgur.com/Mffjnem.png)]
-# Devyzi-Framework
+# Devyzi-Framework ![Devyzi Framework](http://i.imgur.com/Mffjnem.png)
 Framework PHP sem fins lucrativos.
 
 

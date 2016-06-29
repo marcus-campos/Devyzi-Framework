@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f3262ea1-5ced-433a-89e5-bb3db886cf8d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="DevyziFramework.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -48,7 +47,7 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+              <caret line="0" column="70" selection-start-line="0" selection-start-column="70" selection-end-line="0" selection-end-column="70" />
               <folding />
             </state>
           </provider>
@@ -345,7 +344,7 @@
       <workItem from="1466706577442" duration="4311000" />
       <workItem from="1466717920439" duration="337000" />
       <workItem from="1466724445202" duration="10699000" />
-      <workItem from="1467133362316" duration="34274000" />
+      <workItem from="1467133362316" duration="34318000" />
     </task>
     <task id="LOCAL-00001" summary="Blade is possible!">
       <created>1467140977672</created>
@@ -445,11 +444,18 @@
       <option name="project" value="LOCAL" />
       <updated>1467226407249</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Logo - Bugfix">
+      <created>1467226444729</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1467226444729</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49717000" />
+    <option name="totallyTimeSpent" value="49761000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -960,7 +966,7 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+          <caret line="0" column="70" selection-start-line="0" selection-start-column="70" selection-end-line="0" selection-end-column="70" />
           <folding />
         </state>
       </provider>
