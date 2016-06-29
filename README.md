@@ -47,5 +47,5 @@ Desta forma, a view terá suporte ao template blade, veja um exemplo de como usa
 ```
 
 #Patrocine este projeto
-Caso você goste e queira patrocinar este projeto, acesse o seguinte link: https://patreon.com/invite/gyjqn e doe para que o desenvolvimento do framework possa ser acelerado.
+Caso você goste e queira patrocinar este projeto, acesse o seguinte link: https://www.patreon.com/user?u=3580444 e doe para que o desenvolvimento do framework possa ser acelerado.
 
