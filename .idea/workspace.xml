@@ -47,8 +47,8 @@
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+            <state relative-caret-position="0">
+              <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -345,7 +345,7 @@
       <workItem from="1466706577442" duration="4311000" />
       <workItem from="1466717920439" duration="337000" />
       <workItem from="1466724445202" duration="10699000" />
-      <workItem from="1467133362316" duration="34237000" />
+      <workItem from="1467133362316" duration="34274000" />
     </task>
     <task id="LOCAL-00001" summary="Blade is possible!">
       <created>1467140977672</created>
@@ -438,11 +438,18 @@
       <option name="project" value="LOCAL" />
       <updated>1467226283669</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Logo - Bugfix">
+      <created>1467226407249</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1467226407249</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49680000" />
+    <option name="totallyTimeSpent" value="49717000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -952,8 +959,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        <state relative-caret-position="0">
+          <caret line="0" column="2" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
           <folding />
         </state>
       </provider>
