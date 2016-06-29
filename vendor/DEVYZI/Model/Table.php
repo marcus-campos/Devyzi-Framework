@@ -8,6 +8,8 @@
 namespace DEVYZI\Model;
 
 
+use Mockery\CountValidator\Exception;
+
 abstract  class Table
 {
     protected $db;
@@ -15,21 +17,47 @@ abstract  class Table
 
     public function __construct(\PDO $db)
     {
-        $this->db = $db;
+        try
+        {
+            $this->db = $db;
+        }
+        catch (\PDOException $ex)
+        {
+            echo "Erro: ".$ex;
+        }
     }
 
     public function all()
     {
-        $query = "select * from {$this->table}";
-        return $this->db->query($query)->fetchAll()[0];
+        $query = "SELECT * FROM {$this->table}";
+        return $this->db->query($query)->fetchAll(\PDO::FETCH_ASSOC);
     }
 
     public function find($id)
     {
-        $query = "select * from {$this->table} WHERE id=:id";
+        $query = "SELECT * FROM {$this->table} WHERE id=:id";
         $stmt = $this->db->prepare($query);
         $stmt->bindParam(":id", $id);
         $stmt->execute();
         return $stmt->fetch(\PDO::FETCH_ASSOC);
+    }
+
+    public function delete($id)
+    {
+        $query = "DELETE FROM {$this->table} WHERE id=:id";
+        $stmt = $this->db->prepare($query);
+        $stmt->bindParam(":id", $id);
+        $stmt->execute();
+        return $stmt->fetch(\PDO::FETCH_ASSOC);
+    }
+
+    //TODO: Select multiple values
+    public function select($columns, $where)
+    {
+        $result = null;
+
+        $query = "SELECT {$columns} FROM {$this->table} WHERE {$where}";
+        $result = $this->db->query($query)->fetchAll(\PDO::FETCH_ASSOC);
+        return $result;
     }
 }

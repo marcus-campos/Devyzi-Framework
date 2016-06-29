@@ -18,7 +18,6 @@ use Illuminate\Container\Container as Container;
 use Illuminate\View\Factory;
 use Illuminate\View\Engines\EngineResolver;
 use Illuminate\View\View as View;
-use DEVYZI\Config\Prefixes;
 
 class Blade
 {
